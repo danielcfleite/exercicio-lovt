@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px #00000040;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 45px;
+}
+
+main {
+  padding: 10px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  display: inline;
+  font-family: "Ropa Sans";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #777777;
+}
+
+#title-description {
+  font-family: "Ropa Sans";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #aaaaaa;
+}
+
+.banner {
+  background: url("../images/Rectangle1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 30vh;
+  padding: 0px 10px;
+  transition: background 0.5s;
+}
+
+.arrow-button {
+  background: rgba(141, 141, 141, 0.62);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  background: #eeeeee;
+  max-width: 660px;
+}
+
+.advertisement strong {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #888888;
+
+  /* animation: money 3s infinite; */
+}
+
+.mustard-text {
+  background: #dc9730;
+}
+
+.green-text {
+  background: #51d275;
+}
+
+.advertisement span {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 3px;
+  transition: background 0.5s;
+}
+
+.advertisement span:hover {
+  background: #ffae00;
+}
+
+.advertisement p {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  color: #555555;
+  padding: 0 10px 10px 10px;
+
+  /* animation: updown 5s; */
+}
+
+.advertisement div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sales {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+#style-industrial {
+  background-image: url("../images/Rectangle4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#style-modern {
+  background-image: url("../images/Rectangle5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#style-classic {
+  background-image: url("../images/Rectangle6.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.house-style {
+  margin: 5px 0;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.house-style div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.styles h2 {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #888888;
+
+  margin-bottom: 10px;
+}
+
+.house-style strong {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #333333;
+  padding: 40px 45px;
+  gap: 20px;
+}
+
+#contacts {
+  width: 175px;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contacts span {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+#contacts strong {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+#sidebar-menu {
+  position: absolute;
+  width: 250px;
+  top: 52px;
+  right: 0;
+  background: #fff;
+  box-shadow: -2px 2px 4px 2px #00000061;
+  display: none;
+}
+
+#sidebar-menu ul {
+  list-style: none;
+}
+
+#sidebar-menu li {
+  line-height: 27px;
+  padding: 15px;
+  text-align: center;
+}
+
+#sidebar-menu li:hover {
+  cursor: pointer;
+  text-shadow: 1px 0px 2px rgb(107 109 79);
+}
+
+#sidebar-menu a {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #888888;
+  transition: all 0.3s;
+}
+
+.sidebar-visible {
+  display: block !important;
+}
+
+#contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#contact-us h2 {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #fff;
+}
+
+#contact-us textarea {
+  height: 100px;
+}
+
+#contact-us button {
+  background-color: #fff;
+  color: #333333;
+  font-size: 18px;
+  padding: 5px;
+  border: 0;
+  border-radius: 10px;
+}
+
+#contact-us textarea,
+#contact-us input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 0;
+}
+
+#contact-details {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 27px;
+  color: #fff;
+}
+
+@media (min-width: 481px) {
+  footer {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 769px) {
+  .sales {
+    flex-direction: row;
+  }
+
+  header {
+    padding: 10px 45px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  #title-description {
+    font-size: 15px;
+  }
+
+  .hamburguer-menu {
+    width: 32px;
+  }
+
+  #contacts span {
+    font-size: 15px;
+  }
+
+  #contacts strong {
+    font-size: 15px;
+  }
+
+  #google-maps {
+    width: 320px;
+  }
+}
+
+@keyframes money {
+  0% {
+    color: #888888;
+    font-size: 20px;
+  }
+
+  50% {
+    color: #008e1c;
+    font-size: 30px;
+  }
+
+  100% {
+    color: #888888;
+    font-size: 20px;
+  }
+}
+
+@keyframes updown {
+  0% {
+    opacity: 0%;
+    transform: translateY(-200px);
+  }
+
+  30% {
+    transform: translateY(-100px) translateX(200px) rotate(90deg);
+  }
+
+  70% {
+    transform: translateY(-100px) translateX(200px) rotate(270deg);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: rotate(360deg);
+  }
+}
